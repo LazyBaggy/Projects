@@ -124,7 +124,7 @@ noisd tendermint unsafe-reset-all --home $HOME/.noisd --keep-addr-book
 ```
 ## State-sync
 ```
-SNAP_RPC="https://nois-rpc.polkachu.com:443"
+SNAP_RPC="import your rpc"
 ```
 ```
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
