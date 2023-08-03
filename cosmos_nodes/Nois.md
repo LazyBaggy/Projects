@@ -158,7 +158,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-## Register and start service
+## Register and start service.
 
 ```bash
 sudo systemctl daemon-reload
