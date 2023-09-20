@@ -117,12 +117,12 @@ sed -E -i 's/minimum-gas-prices = \".*\"/minimum-gas-prices = \"0.05unois\"/' $H
 ```bash
 sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.noisd/config/config.toml
 ```
-## Reset chain data
+## Reset chain data.
 
 ```bash
 noisd tendermint unsafe-reset-all --home $HOME/.noisd --keep-addr-book
 ```
-## State-sync
+## State-sync.
 ```
 SNAP_RPC="import your rpc"
 ```
